@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Magazine Semantics</title>
+    <style>
+    div.container {
+      background-color: lightgreen;
+    }
+    header {
+      text-align: center;
+    }
+    article {
+      max-width: 85%;
+      float: left;
+    }
+    article section h2 {
+      text-align: center;
+    }
+    article section figure {
+      display:inline-block;
+      text-align: center;
+    }
+    aside {
+      margin-left: 85%;
+      max-width: 15%;
+      float: right;
+      position: fixed;
+    }
+    aside section h2 {
+      text-align: center;
+    }
+    aside section a {
+      display: block;
+      text-align: center;
+    }
+    aside section img {
+      display: block;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+    <header>
+      <h1>Magazine</h1>
+    </header>
+    <article>
+      <section>
+        <h2>National News</h2>
+        <figure>
+          <img src="Resources/national-news_1" height="300" width="300" />
+          <figcaption>Article 1</figcaption>
+        </figure>
+        <figure>
+          <img src="Resources/national_2" height="300" width="300" />
+          <figcaption>Article 2</figcaption>
+        </figure>
+        <figure>
+          <img src="Resources/national_3" height="300" width="300" />
+          <figcaption>Article 3</figcaption>
+        </figure>
+      </section>
+      <section>
+        <h2>International News</h2>
+        <figure>
+          <img src="Resources/International-news_1" height="300" width="300" />
+          <figcaption>Article 1</figcaption>
+        </figure>
+        <figure>
+          <img src="Resources/international_2" height="300" width="300" />
+          <figcaption>Article 2</figcaption>
+        </figure>
+        <figure>
+          <img src="Resources/international-news-logo_3" height="300" width="300" />
+          <figcaption>Article 3</figcaption>
+        </figure>
+      </section>
+      <section>
+        <h2>Entertainment</h2>
+        <figure>
+          <img src="Resources/EntertainmentNews_Logo_1" height="300" width="300" />
+          <figcaption>Article 1</figcaption>
+        </figure>
+        <figure>
+          <img src="Resources/EN_logo_2" height="300" width="300" />
+          <figcaption>Article 2</figcaption>
+        </figure>
+        <figure>
+          <img src="Entertainment-News_Logo_3" height="300" width="300" />
+          <figcaption>Article 3</figcaption>
+        </figure>
+      </section>
+    </article>
+
+    <aside>
+      <section>
+        <h2>Campaign</h2>
+        <a href="http://wwf.org">World Wildlife Fund</a>
+        <a href="http://change.org">Change</a>
+        <a href="https://delhi.ngosindia.com/">NGOs India</a>
+      </section>
+      <section>
+        <h2>Promotions</h2>
+        <a href="http://amazon.in"><img src="Resources/amazon-logo" height="150" width="150" />Amazon</a>
+        <a href="http://flipkart.com"><img src="Resources/flipkart-logo" height="150" width="150" />Flipkart</a>
+        <a href="http://snapdeal.com"><img src="Resources/snapdeal-logo" height="150" width="150" />Snapdeal</a>
+      </section>
+    </aside>
+  </div>
+  </body>
+
+</html>
